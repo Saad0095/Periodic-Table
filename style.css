@@ -17,6 +17,7 @@ table {
 }
 
 td {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
     text-align: center;
 
     /* width: 5vw; */
@@ -29,56 +30,89 @@ td {
     border: 1px solid black;
     color: black;
     /* size: 12px; */
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+span {
+    background-color: inherit;
+    font-size: 14px;
+    text-align: left;
 }
 
 .none {
     border: none;
 }
 
-.color1,.box6 {
+.color1,
+.box6 {
     background-color: #C0D7F0;
+    box-shadow: inset 0px 0px 16px 0px #7795CD;
+
 }
 
-.color2,.box1 {
+.color2,
+.box1 {
     background-color: #F7AAC0;
+    box-shadow: inset 0px 0px 16px 0px #F37A8D;
 }
 
-.color3,.box2 {
+.color3,
+.box2 {
     background-color: #FFDCA9;
+    box-shadow: inset 0px 0px 16px 0px #F9A06F;
 }
 
-.color4,.box9 {
+.color4,
+.box9 {
     background-color: #E7DAD4;
+    box-shadow: inset 0px 0px 16px 0px #B3897E;
+
 }
 
-.color5,.box3 {
+.color5,
+.box3 {
     background-color: #FEFCDC;
+    box-shadow: inset 0px 0px 16px 0px #FCF599;
+
 }
 
-.color6,.box5 {
+.color6,
+.box5 {
     background-color: #93D9F5;
+    box-shadow: inset 0px 0px 16px 0px #50CAF1;
 }
 
-.color7,.box4 {
+.color7,
+.box4 {
     background-color: #D4EBD8;
+    box-shadow: inset 0px 0px 16px 0px #7FC998;
 }
 
-.color8,.box7 {
+.color8,
+.box7 {
     background-color: #E0E0F0;
+    box-shadow: inset 0px 0px 16px 0px #9899CC;
 }
 
-.color9,.box8 {
+.color9,
+.box8 {
     background-color: #E1CFE5;
+    box-shadow: inset 0px 0px 16px 0px #AA8FC3;
 }
 
-.color10,.box10 {
+.color10,
+.box10 {
     background-color: #F4DCD4;
+    box-shadow: inset 0px 0px 16px 0px #D79280;
+
 }
 
+/* 
 .color11 {
     background-color: #859998;
-}
+    box-shadow: inset 0px 0px 16px 0px #3ef008;
+} */
 
 td:hover {
     filter: brightness(100%);
